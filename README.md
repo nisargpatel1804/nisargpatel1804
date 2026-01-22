@@ -59,7 +59,7 @@ Currently, I am deeply focused on **Generative AI (RAG/LangChain)** and upskilli
 ---
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN_ID">
+  <a href="https://linkedin.com/in/nisargpatel1804">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:nisargpatel0405@gmail.com">
