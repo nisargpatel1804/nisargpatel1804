@@ -27,6 +27,13 @@ Currently, I am deeply focused on **Generative AI (RAG/LangChain)** and upskilli
 
 ## 🚀 Featured Projects
 
+### 📈 **[Trade Easy - Real-Time Trading Engine](https://github.com/nisargpatel1804/TradeEasy)**
+*A full-stack paper-trading platform with live market data.*
+- **Tech:** Python (Flask), React (Vite), MongoDB, Socket.IO.
+- **Highlights:**
+  - Integrated **Motilal Oswal OpenAPI** and implemented **Socket.IO** for real-time data broadcasting.
+  - Developed robust financial logic for order validation and P&L tracking.
+
 ### ⚖️ **[NyayaGPT - AI Legal Assistant](https://github.com/nisargpatel1804/nyayagpt)**
 *AI-powered legal assistance for Indian Law leveraging RAG architecture.*
 - **Tech:** FastAPI, LangChain, ChromaDB, Next.js, Supabase.
@@ -34,14 +41,7 @@ Currently, I am deeply focused on **Generative AI (RAG/LangChain)** and upskilli
   - Implemented a RAG system to enable context-aware Q&A over **5,200+ vector-embedded legal text chunks**.
   - Built a secure backend using **Supabase Auth (JWT)** for user session management.
 
-### 📈 **Trade Easy - Real-Time Trading Engine**
-*A full-stack paper-trading platform with live market data.*
-- **Tech:** Python (Flask), React (Vite), MongoDB, Socket.IO.
-- **Highlights:**
-  - Integrated **Motilal Oswal OpenAPI** and implemented **Socket.IO** for real-time data broadcasting.
-  - Developed robust financial logic for order validation and P&L tracking.
-
-### 📊 **AlphaQuant - Market Analysis Platform**
+### 📊 **[AlphaQuant - Market Analysis Platform](https://github.com/nisargpatel1804/AlphaQuant)**
 *Modular Nifty 500 analytics dashboard.*
 - **Tech:** Python, Streamlit, Plotly, Pandas, yfinance.
 - **Highlights:**
