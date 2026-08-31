@@ -30,16 +30,12 @@ I don't just do coursework; I build and deploy production-ready architectures. I
 
 ### ⚖️ **[NyayaGPT - Production RAG Legal Intelligence](https://github.com/nisargpatel1804/nyayagpt)**
 *An end-to-end semantic search and AI reasoning platform for Indian Law.*
-<!-- 💡 TIP: Add a 5-second looping GIF of the chat interface working here -->
-* **[🎥 Watch the 2-Minute Architecture Breakdown (Loom)](#)** | **[Live Site](#)**
 - **AI Orchestration:** Engineered a RAG pipeline querying **5,200+ vector-embedded legal chunks** using ChromaDB and Hugging Face embeddings. 
 - **Agentic Fallback Routing:** Designed a multi-step LLM routing system that defaults to OpenRouter APIs but automatically falls back to local Ollama models to prevent rate-limit timeouts.
 - **Security by Default:** Implemented PBKDF2 key derivation for query encryption and locked down the database using strict **Supabase Row-Level Security (RLS)** to prevent cross-tenant data leakage.
 
 ### 📈 **[TradeEasy - Zero-Latency Trading Engine](https://github.com/nisargpatel1804/TradeEasy)**
 *A highly concurrent full-stack paper-trading platform simulating live markets.*
-<!-- 💡 TIP: Add a 5-second looping GIF of the live market ticks updating here -->
-* **[🎥 Watch the Live Demo (Loom)](#)** | **[Live Site](#)**
 - **Real-Time Data Pipelines:** Architected a zero-latency backend using Python and **Socket.IO** to broadcast live market ticks to concurrent user sessions.
 - **API Protection:** Engineered a custom in-memory TTL (Time-To-Live) caching layer to handle high-frequency data without hitting upstream API rate limits.
 - **Financial Business Logic:** Built a strict **FIFO (First-In-First-Out) lot tracking system** for accurate trade executions and utilized headless Playwright to scrape and automate corporate action events.
