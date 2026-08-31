@@ -1,15 +1,15 @@
 # Hi there, I'm Nisarg Patel! 👋
 
-### Python-focused Full Stack Developer | AI & GenAI Enthusiast
+### Applied AI & Backend Engineer | FastAPI, WebSockets & RAG Architect
 
-I am a Full Stack Developer passionate about building AI-powered applications and bridging the gap between complex backend logic and user-friendly frontends. I have a strong foundation in **Flask** and **FastAPI**, with practical experience creating responsive interfaces using **React Frameworks**.
+**🟢 Actively seeking a 6-month remote internship starting January 2027.**
 
-Currently, I am deeply focused on **Generative AI (RAG/LangChain)** and upskilling in **DevOps** practices to improve deployment pipelines.
+I don't just do coursework; I build and deploy production-ready architectures. I specialize in designing high-concurrency backend systems and Agentic AI workflows. I thrive in zero-to-one environments where I can bridge complex data pipelines (WebSockets, Vector Databases, LLM routing) with intuitive, secure user interfaces.
 
-- 📍 **Location:** Vadodara, Gujarat, India
-- 🎓 **Education:** Computer Engineering at Neotech Institute of Technology (GTU)
-- 💼 **Experience:** Former Intern at **Akshar IT Solution** (Backend & Database Engineering)
-- 📧 **Contact:** nisargpatel0405@gmail.com
+- 📍 **Location:** Vadodara, Gujarat, India (Open to Remote / Relocation)
+- 🎓 **Education:** Computer Engineering @ Neotech Institute of Technology (Graduating 2027)
+- 💼 **Experience:** Former Backend & Database Engineering Intern @ **Akshar IT Solution** 
+- 🔗 **Connect:** [LinkedIn](https://linkedin.com/in/nisargpatel1804) | [Email](mailto:nisargpatel0405@gmail.com)
 
 ---
 
@@ -17,52 +17,55 @@ Currently, I am deeply focused on **Generative AI (RAG/LangChain)** and upskilli
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Languages** | Python, JavaScript, TypeScript, SQL |
-| **Backend & AI** | Flask, FastAPI, LangChain, RAG Architecture, ChromaDB, Ollama |
-| **Frontend** | React.js, Next.js, Vite, Tailwind CSS, Streamlit |
-| **Databases** | MongoDB (MongoEngine), PostgreSQL, MSSQL, Supabase |
-| **Tools & DevOps** | Git, Docker, Postman, Vercel, Supabase Auth |
+| **Languages** | Python, TypeScript, JavaScript, SQL |
+| **Backend Architecture** | FastAPI, Flask, Node.js, Socket.IO (WebSockets), REST APIs |
+| **Applied AI & Data** | LangChain, RAG Pipelines, ChromaDB, Hugging Face, OpenRouter, Ollama |
+| **Frontend** | React.js, Next.js (App Router), Tailwind CSS, Vite |
+| **Databases & Auth** | PostgreSQL, MongoDB, MSSQL, Supabase (RLS, JWT, PBKDF2), Redis |
+| **Tools & Infrastructure**| Git, Docker, Postman, Vercel, Playwright (Headless Scraping) |
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Featured Architectures
 
-### 📈 **[Trade Easy - Real-Time Trading Engine](https://github.com/nisargpatel1804/TradeEasy)**
-*A full-stack paper-trading platform with live market data.*
-- **Tech:** Python (Flask), React (Vite), MongoDB, Socket.IO.
-- **Highlights:**
-  - Integrated **Motilal Oswal OpenAPI** and implemented **Socket.IO** for real-time data broadcasting.
-  - Developed robust financial logic for order validation and P&L tracking.
+### ⚖️ **[NyayaGPT - Production RAG Legal Intelligence](https://github.com/nisargpatel1804/nyayagpt)**
+*An end-to-end semantic search and AI reasoning platform for Indian Law.*
+<!-- 💡 TIP: Add a 5-second looping GIF of the chat interface working here -->
+* **[🎥 Watch the 2-Minute Architecture Breakdown (Loom)](#)** | **[Live Site](#)**
+- **AI Orchestration:** Engineered a RAG pipeline querying **5,200+ vector-embedded legal chunks** using ChromaDB and Hugging Face embeddings. 
+- **Agentic Fallback Routing:** Designed a multi-step LLM routing system that defaults to OpenRouter APIs but automatically falls back to local Ollama models to prevent rate-limit timeouts.
+- **Security by Default:** Implemented PBKDF2 key derivation for query encryption and locked down the database using strict **Supabase Row-Level Security (RLS)** to prevent cross-tenant data leakage.
 
-### ⚖️ **[NyayaGPT - AI Legal Assistant](https://github.com/nisargpatel1804/nyayagpt)**
-*AI-powered legal assistance for Indian Law leveraging RAG architecture.*
-- **Tech:** FastAPI, LangChain, ChromaDB, Next.js, Supabase.
-- **Highlights:**
-  - Implemented a RAG system to enable context-aware Q&A over **5,200+ vector-embedded legal text chunks**.
-  - Built a secure backend using **Supabase Auth (JWT)** for user session management.
+### 📈 **[TradeEasy - Zero-Latency Trading Engine](https://github.com/nisargpatel1804/TradeEasy)**
+*A highly concurrent full-stack paper-trading platform simulating live markets.*
+<!-- 💡 TIP: Add a 5-second looping GIF of the live market ticks updating here -->
+* **[🎥 Watch the Live Demo (Loom)](#)** | **[Live Site](#)**
+- **Real-Time Data Pipelines:** Architected a zero-latency backend using Python and **Socket.IO** to broadcast live market ticks to concurrent user sessions.
+- **API Protection:** Engineered a custom in-memory TTL (Time-To-Live) caching layer to handle high-frequency data without hitting upstream API rate limits.
+- **Financial Business Logic:** Built a strict **FIFO (First-In-First-Out) lot tracking system** for accurate trade executions and utilized headless Playwright to scrape and automate corporate action events.
 
-### 📊 **[AlphaQuant - Market Analysis Platform](https://github.com/nisargpatel1804/AlphaQuant)**
-*Modular Nifty 500 analytics dashboard.*
-- **Tech:** Python, Streamlit, Plotly, Pandas, yfinance.
-- **Highlights:**
-  - Designed a **Fetcher-Scanner-Engine pipeline** to synthesize fundamental and technical data.
-  - Integrated a custom portfolio backtester for strategies like RSI and MACD.
+### 📊 **[AlphaQuant - Algorithmic Market Screener](https://github.com/nisargpatel1804/AlphaQuant)**
+*A modular Nifty 500 analytics and backtesting dashboard.*
+- **Data Engineering:** Designed a robust Fetcher-Scanner-Engine pipeline to synthesize fundamental and technical data using Pandas and yfinance.
+- **Quantitative Testing:** Integrated a custom portfolio backtester to evaluate algorithmic strategies (RSI, MACD) with interactive Plotly visualizations via Streamlit.
 
 ---
 
-## 🏆 Achievements & Hackathons
+## 🏆 Proof of Execution
 
-- **Winner, "Award for Future Potential" @ CREATO 2024:** Recognized for rapid prototyping of a digital ordering solution.
-- **Tinkerthon 3.0 Participant:** Developed a **Real-Time Face Detection and Attendance System** in a 30-hour coding marathon.
-- **Tic Tech Toe Participant:** Built a Library Management System to track book records.
+- 🥇 **Winner, "Award for Future Potential" @ CREATO 2024:** Recognized by industry judges for the rapid prototyping and full-stack deployment of a digital ordering solution.
+- 💻 **Tinkerthon 3.0:** Engineered a Real-Time Face Detection and Attendance System during a 30-hour continuous coding marathon.
+- ⚙️ **Akshar IT Solution (Internship):** Shipped optimized database queries and backend features for live client projects, gaining foundational experience in production environments.
 
 ---
 
 <p align="center">
   <a href="https://linkedin.com/in/nisargpatel1804">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:nisargpatel0405@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <!-- 💡 TIP: If you have a Peerlist profile, uncomment the line below and add your link -->
+  <!-- <a href="YOUR_PEERLIST_LINK"><img src="https://img.shields.io/badge/Peerlist-000000?style=for-the-badge&logo=peerlist&logoColor=white" alt="Peerlist" /></a> -->
 </p>
